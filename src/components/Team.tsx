@@ -2,7 +2,6 @@
 
 import React from "react";
 import FadeIn from "./FadeIn";
-import { useLanguage } from "./LanguageContext";
 
 interface Member {
   name: string;
@@ -10,14 +9,12 @@ interface Member {
 }
 
 export default function Team() {
-  const { t } = useLanguage();
-
   const members: Member[] = [
-    { name: "Carl Sebastian E. Barcelona", role: "AI / ML" },
-    { name: "Marjoy M. Caranto", role: "Full-stack Dev" },
-    { name: "Jef R. Lecias", role: "Database" },
-    { name: "Mary Ruth P. Relator", role: "Front-end Dev" },
-    { name: "Jared Dean R. Tiu", role: "Back-end Dev" },
+    { name: "Carl Sebastian E. Barcelona", role: "AI / ML Engineer" },
+    { name: "Marjoy M. Caranto", role: "Full-stack Developer" },
+    { name: "Jef R. Lecias", role: "Database Engineer" },
+    { name: "Mary Ruth P. Relator", role: "Front-end Developer" },
+    { name: "Jared Dean R. Tiu", role: "Back-end Developer" },
   ];
 
   return (
@@ -26,10 +23,10 @@ export default function Team() {
         {/* Section Header */}
         <div className="section-header">
           <FadeIn delay={100}>
-            <span className="section-label">{t("team.label")}</span>
+            <span className="section-label">Ang Aming Koponan</span>
           </FadeIn>
           <FadeIn delay={200}>
-            <h2 className="section-title">{t("team.title")}</h2>
+            <h2 className="section-title">Meet the Team</h2>
           </FadeIn>
         </div>
 
