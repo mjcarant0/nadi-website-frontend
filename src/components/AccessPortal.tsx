@@ -38,7 +38,7 @@ export default function AccessPortal() {
                 {t("access.card1.desc")}
               </p>
               <a
-                href="https://nadi-app.gov.ph"
+                href="https://nadi-client.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-portal-white"
@@ -65,7 +65,7 @@ export default function AccessPortal() {
                 {t("access.card2.desc")}
               </p>
               <a
-                href="https://nadi-admin.gov.ph"
+                href="https://nadi-admin.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-portal-teal"

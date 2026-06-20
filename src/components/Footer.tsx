@@ -64,7 +64,7 @@ export default function Footer() {
             <h4 className="footer-title">{t("footer.portal.title")}</h4>
             <nav className="footer-nav">
               <a
-                href="https://nadi-app.gov.ph"
+                href="https://nadi-client.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-link"
@@ -72,7 +72,7 @@ export default function Footer() {
                 {t("access.card1.title")}
               </a>
               <a
-                href="https://nadi-admin.gov.ph"
+                href="https://nadi-admin.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-link"

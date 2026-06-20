@@ -102,7 +102,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://nadi-app.gov.ph"
+              href="https://nadi-client.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-navbar-outline"
@@ -110,7 +110,7 @@ export default function Navbar() {
               {t("nav.cta.app")}
             </a>
             <a
-              href="https://nadi-admin.gov.ph"
+              href="https://nadi-admin.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-navbar-filled"
@@ -219,7 +219,7 @@ export default function Navbar() {
 
         <div className="mobile-ctas">
           <a
-            href="https://nadi-app.gov.ph"
+            href="https://nadi-client.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-drawer-outline"
@@ -228,7 +228,7 @@ export default function Navbar() {
             {t("nav.cta.app")}
           </a>
           <a
-            href="https://nadi-admin.gov.ph"
+            href="https://nadi-admin.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-drawer-filled"

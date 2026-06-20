@@ -38,7 +38,7 @@ export default function Hero() {
             <FadeIn delay={400}>
               <div className="hero-ctas">
                 <a
-                  href="https://nadi-app.gov.ph"
+                  href="https://nadi-client.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary btn-hero"
@@ -46,7 +46,7 @@ export default function Hero() {
                   {t("hero.cta.app")}
                 </a>
                 <a
-                  href="https://nadi-admin.gov.ph"
+                  href="https://nadi-admin.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline btn-hero"
